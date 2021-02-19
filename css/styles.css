@@ -1,0 +1,176 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+h2{
+  font-family: "Montserrat";
+  font-weight: 800;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding:  0 7%;
+  margin-bottom: 0;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;  
+
+}
+@media  (max-width:1024px ) {
+  .title-image {
+    width: 60%;
+    transform: rotate(0);
+    position: static;
+    z-index: 1;
+    /* right: 30%;   */
+  }
+  #title{
+    text-align: center;
+  }
+
+  
+}
+
+/* features seaction */
+.features { 
+  background-color: white;
+
+}
+.fontsFeatures{
+  font-family:FontAwesome;
+  color: #ef8172;
+}
+
+.fontsFeatures:hover{
+  font-family:FontAwesome;
+  color: #ff4c68;
+}
+.benefits-section{
+  background-color: white;
+  padding-top: 5vh;
+}
+/* testimonials */
+
+#testimonials{
+  background-color: #ff4c68;
+  padding-top: 5%;
+  
+}
+.testemonials-text{
+  font-family: "Montserrat";
+  color: #ffffff;
+}
+.testimonials-img{
+  width: 11%;
+  margin: 3%;
+  border-radius: 100%;
+}
+#press{
+  background-color: #ff4c68;
+  padding-bottom: 5%;
+}
+.press-img{
+  width: 24%;
+  padding-bottom: 3%;
+}
+
+/* pricing */
+.pricing-column{
+  padding: 3% 2%;
+}
+
+ /* Call to Action  */
+
+ #cta{
+  background-color: #ff4c68;
+  padding: 10vh 0;
+  color: white;
+  font-family: ;
+ }
+ /* footer */
+ .contact-icon{
+   margin: 10px 20px !important;
+ }
